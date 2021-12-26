@@ -3,14 +3,14 @@ package week1.day1;
 public class HomeworkWeek1Factorial {
 
 	public static void main(String[] args) {
-		int a=5;
+		int input=5;
 		int fact=1;
 		
-		for(int i=1;i<=a;i++)
+		for(int i=1;i<=input;i++)
 		{
 			fact=fact*i;
 		}
-		System.out.println("Factorial of "+a+ " is:" +fact);		
+		System.out.println("Factorial of "+input+ " is:" +fact);		
 			
 		}
 	}
